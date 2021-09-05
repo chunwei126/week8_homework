@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%- title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <div class="mx-auto my-0" style="max-width: 1280px; font-family: 'Source Han Sans';">
+      <header class="bg-light py-5">
+        <div class="container d-flex align-items-center justify-content-between">
+          <h1 class="hide_logo_text mb-0" style="background-image: url(https://hexschool.github.io/webLayoutTraining1st/yoga-week8/DOYOGA-logo.png);width: 96px; height: 31px;">DOYOGA</h1>
+          <nav>
+            <ul class="d-lg-flex list-unstyled mb-0 d-sm-none ">
+              <li class="me-8"><a href="" class="text-dark fw-light">課程介紹</a></li>
+              <li class="me-8"><a href="" class="text-dark fw-light">瑜伽空間</a></li>
+              <li><a href="" class="text-dark fw-light">當月課表</a></li>
+            </ul>
+            <a href="" class="d-md-block d-lg-none fs-2 text-secondary"><i class="fas fa-bars"></i></a>
+          </nav>
+          <ul class="d-lg-flex list-unstyled mb-0 d-sm-none">
+            <li class="border border-secondary py-2 px-4 rounded-4 me-4"><a href="" class="text-secondary">立即預約</a></li>
+            <li class="border border-secondary py-2 px-4 rounded-4"><a href="" class="text-secondary">聯絡我們</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <%- contents %>
+  
+      <footer class="bg-secondary py-md-8 py-sm-6">
+        <div class="container mb-6">
+          <div class="d-lg-flex align-items-center justify-content-between pb-secondary">
+            <h2 class="text-white fs-3 px-0">現在訂閱，獲得課程優惠碼！</h2>
+            <div class="d-flex justify-content-lg-end mb-2">
+              <input type="email" class="px-4 py-2 border border-primary rounded-start" style="width: 278px;" placeholder="輸入您的電子信箱">
+              <input type="button" value="訂閱" class="border-0 fs-5 px-4 py-2 bg-primary text-white rounded-end">
+            </div>
+          </div>
+        </div>
+
+        <hr class="bg-white border mb-8">
+
+        <div class="container">
+          <div class="d-flex justify-content-between">
+            <ul class="list-unstyled mb-0">
+              <li class="hide_logo_text mb-md-4 mb-ms-2" style="background-image: url(https://hexschool.github.io/webLayoutTraining1st/yoga-week8/DOYOGA.png); width: 96px; height: 31px;">DOYOGA</li>
+              <li class="mb-2"><a href="" class="text-white">課程介紹</a></li>
+              <li class="mb-2"><a href="" class="text-white">瑜珈空間</a></li>
+              <li><a href="" class="text-white">當月課表</a></li>
+              <li class="d-md-none d-sm-block mt-2"><a href="" class="text-white">© 2021. All Rights Reserved.</a></li>
+            </ul>
+            <p class="text-white align-self-end mb-0 d-md-block d-sm-none">© 2021. All Rights Reserved.</p>
+            <ul class="d-flex list-unstyled">
+              <li><a href="" class="text-white fs-4 me-2"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="" class="text-white fs-4 me-2"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="" class="text-white fs-4"><i class="fab fa-line"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+      </footer>
+    </div>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>

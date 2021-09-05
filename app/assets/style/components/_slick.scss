@@ -1,0 +1,33 @@
+.slick-item{
+  color: #907A7B;
+
+  .slick-picture {
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-radius: 16px;
+    margin-bottom: 8px;
+    width: 85%;
+    height: 196px;
+  }
+  
+  .slick-title {
+    font-size: 20px;
+  }
+  
+  .slick-text {
+    margin-bottom: 0;
+  }
+
+  @media(max-width: 768px) {
+    .slick-picture {
+      width: 90%;
+    }
+  }
+
+  @media(max-width: 468px){
+    .slick-picture {
+      width: 100%;
+    }
+  }
+}
